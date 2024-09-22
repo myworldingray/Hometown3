@@ -22,8 +22,7 @@
     border-radius: 200px;
     margin: 30px 0 30px 0 ;
     padding: 20px;
-    text-shadow: 1px 1px gray;
-    
+    text-shadow: 1px 1px gray;    
     }
     .header2{
     padding: 30px 15px 30px 15px;
@@ -42,8 +41,43 @@
     justify-content:space-around;
     align-items: center;
     }
-    p{
+    .footer{
+    display :block;
+    justify-content: start;
+    text-align: start;
+    width: 1250px;
+    height: fit-content;
+    background:linear-gradient(#A87A38,#8699AB) ;
+    background-size: cover;
+    border-radius: 200px;
+    margin: 30px 0 30px 0 ;
+    padding: 20px 0 10px 20px;
+    text-shadow: 1px 1px gray;  
+    margin-bottom: 30px;  
+    }
+     .info{
+    display :flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    background:linear-gradient(#49322B,#5B5D5C,#E2E4E7) ;
+    border-radius: 200px;
+    color: pink;
+    text-shadow: 2px 2px gray;
+    margin: 30px 0 30px 50px;
+    padding: 40px;
+    }
+    .newsletter{
+       display :flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 0 0 10px 10px;
+    padding: 15px;
+    border-radius: 50px;
+    }
+    p,ul{
         font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
         }
     #topthings{
         margin: 15px;
@@ -51,16 +85,23 @@
         font-size: 30px;
         font-family: myFirstfont;
         text-shadow: 1px 1px whitesmoke;
-        
-        
-    }
+        }
 h1{
-     display :block;
-    justify-content: center;
-    margin: 25px 0 25px;
+     margin: 25px 0 25px;
     font-family: myFirstFont;
     color: #DE8663;
     font-size: 50px;
+}
+h2{
+     margin: 25px 0 25px;
+    font-family: myFirstFont;
+    color: #383534;
+    font-size: 30px;
+}
+#hi{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
 }
 
 .img-ttd{
