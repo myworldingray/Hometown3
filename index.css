@@ -1,0 +1,77 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(SamarkanNormal.ttf);
+   }
+  body{
+    background-image: url(prayerwheel.jpg);
+    background-size: cover;
+    text-align: center;
+    }
+    #flag{
+        width: 30px;
+        height: 30px;
+    }
+.header1{
+    display :block;
+    justify-content: center;
+    text-align: center;
+    width: 1250px;
+    height: fit-content;
+    background:linear-gradient(#292727,#504946) ;
+    background-size: cover;
+    border-radius: 200px;
+    margin: 30px 0 30px 0 ;
+    padding: 20px;
+    text-shadow: 1px 1px gray;
+    
+    }
+    .header2{
+    padding: 30px 15px 30px 15px;
+    margin: 30px 0 30px 0 ;
+    border-radius: 600px 600px;
+    width: 1250px;
+    height: 200px;
+    background:linear-gradient(#A87A38,#8699AB) ;
+    background-size: cover;
+    color: #383534;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    }
+    p{
+        font-family: 'Courier New', Courier, monospace;
+        }
+    #topthings{
+        margin: 15px;
+        padding: 30px;
+        font-size: 30px;
+        font-family: myFirstfont;
+        text-shadow: 1px 1px whitesmoke;
+        
+        
+    }
+h1{
+     display :block;
+    justify-content: center;
+    margin: 25px 0 25px;
+    font-family: myFirstFont;
+    color: #DE8663;
+    font-size: 50px;
+}
+
+.img-ttd{
+    width: 300px;
+    height: 150px;
+    padding: 8px;
+    margin: auto;
+    border-radius: 200px ;
+    border: #383534, 1px, solid;
+}
+p :hover{
+    transform: scale(1.8);
+}
+ 
