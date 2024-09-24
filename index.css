@@ -44,14 +44,14 @@
     }
     .footer{
     display :block;
-    justify-content: center;
-    text-align: center;
+    justify-content: start;
+    text-align: start;
     width: 1250px;
     height: fit-content;
     background:linear-gradient(#A87A38,#8699AB) ;
     background-size: cover;
     border-radius: 200px;
-    padding: 20px 20px 20px 80px;
+    padding: 20px 20px 20px 150px;
     text-shadow: 1px 1px gray;  
     margin-bottom: 30px;  
     }
